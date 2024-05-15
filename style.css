@@ -321,3 +321,39 @@ content: "";
         background-color: transparent;
     }
 }
+@media (min-width : 1000px){
+    .txt{
+        h1{
+            font-size: 3rem !important;
+        }
+        p{
+            width: 100% !important;
+        }
+    }
+    .Links .cont{
+        position: absolute;
+        top: -59px;
+        left: 0;
+    }
+    .Short_url{
+        width: 90%;
+    }
+    .statstics{
+        padding-top: 100px;
+    }
+    .card{
+        width: 300px !important;
+    }
+    .cards{
+        padding: 5rem 4rem 5rem 4rem !important;
+    }
+    .footer{
+        justify-content: center !important;
+        gap: 10rem !important;
+        padding-left: 3rem !important;
+        padding-right: 15rem !important;
+    }
+    .right_side-footer{
+        gap: 7rem !important;
+    }
+}
