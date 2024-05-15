@@ -321,7 +321,7 @@ content: "";
         background-color: transparent;
     }
 }
-@media (min-width : 1000px){
+@media (min-width : 1000px) and (max-width : 1440px){
     .txt{
         h1{
             font-size: 3rem !important;
